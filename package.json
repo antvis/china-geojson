@@ -1,0 +1,54 @@
+{
+  "name": "china-geojson",
+  "version": "1.0.0",
+  "description": "中国地图 geoJSON 格式数据，包含各个省市",
+  "keywords": [
+    "geojson",
+    "china",
+    "g2"
+  ],
+  "homepage": "https://github.com/antvis/china-geojson",
+  "author": "sima.zhang1990@gmail.com",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:antvis/china-geojson.git"
+  },
+  "bugs": {
+    "url": "https://github.com/antvis/china-geojson/issues"
+  },
+  "licenses": "MIT",
+  "scripts": {
+    "build": "atool-build",
+    "doc": "atool-doc",
+    "doc-build": "atool-doc --build"
+  },
+  "entry": {
+    "index": "./index"
+  },
+  "devDependencies": {
+    "atool-build": "0.6.x",
+    "atool-doc": "^0.1.0",
+    "atool-test": "^0.4.6",
+    "babel-cli": "~6.6.4",
+    "babel-core": "~6.7.4",
+    "babel-plugin-add-module-exports": "~0.1.2",
+    "babel-preset-es2015": "~6.6.0",
+    "babel-preset-stage-0": "~6.5.0",
+    "dora": "0.3.x"
+  },
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "babel": {
+    "presets": [
+      "es2015",
+      "stage-0"
+    ],
+    "plugins": [
+      "add-module-exports"
+    ]
+  },
+  "pre-commit": [
+    "lint"
+  ]
+}
