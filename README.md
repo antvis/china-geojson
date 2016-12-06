@@ -6,7 +6,7 @@
 ## Install
 
 ```bash
-npm install china-geojson --svae
+npm install china-geojson --save
 ```
 
 ## Usage
