@@ -14,3 +14,4 @@ npm install china-geojson --save
 ```js
 var ChinaGeojson = require('china-geojson');
 ```
+感谢 [Echarts](http://echarts.baidu.com/)。
